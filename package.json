@@ -1,0 +1,19 @@
+{
+  "name": "portal_music",
+  "main": "index.js",
+  "author": "ZerioDev",
+  "version": "5.0.0",
+  "repository": "https://github.com/ZerioDev/Music-bot.git",
+  "description": "A complete code to download for a music bot. Using a module (discord-player).",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord-player": "^4.1.4",
+    "discord.js": "^12.5.3",
+    "ffmpeg-static": "^4.2.7",
+    "npm-start": "^1.4.2",
+    "npm-start-command": "^1.0.1"
+  }
+}
